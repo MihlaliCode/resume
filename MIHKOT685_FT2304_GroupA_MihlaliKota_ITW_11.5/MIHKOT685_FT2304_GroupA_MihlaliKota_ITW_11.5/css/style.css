@@ -1,0 +1,115 @@
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    border: 6px solid rgb(94, 93, 93);
+    border-radius: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+
+h1, h2, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+p, li {
+    font-family: sans-serif;
+    color: white;
+}
+
+body {
+    background-color: darkgray;
+}
+
+.ed,.ex,.sk,.con {
+    background-color: gray;
+    border: 6px solid rgb(94, 93, 93);
+    padding: 2rem 2rem;
+    margin: 1rem 1rem;
+}
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: gray;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f17b;
+}
+
+.main {
+    margin-left: 160px; 
+    font-size: 28px; 
+    padding: 0px 10px;
+}
+
+.intro {
+    margin: 2rem 2rem; 
+    font-size: 28px; 
+    padding: 2rem 2rem;
+    display: block;
+    justify-content: center;
+}
+
+@media screen and (max-width: 320px) {
+    body {
+        font-size: 6px;
+      }
+      
+      .header {
+        font-size: 8px;
+        padding: 3px;
+      }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 14px;
+      }
+      
+      .header {
+        font-size: 20px;
+        padding: 5px;
+      }
+}
+
+@media screen and (max-width: 768px) {
+
+    body {
+      font-size: 16px;
+    }
+    
+    .header {
+      font-size: 24px;
+      padding: 10px;
+    }
+  }
+  
+@media screen and (min-width: 769px) {
+
+  body {
+    font-size: 18px;
+  }
+  
+  .header {
+    font-size: 28px;
+    padding: 15px;
+  }
+}
